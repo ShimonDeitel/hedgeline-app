@@ -1,0 +1,40 @@
+{
+  "identifier" : "hedgeline",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "hedgeline_group",
+      "localizations" : [],
+      "name" : "Hedgeline Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "hedgeline_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Hedgeline Pro unlocks unlimited trims and pro features.",
+              "displayName" : "Hedgeline Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "hedgeline_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Hedgeline Pro",
+          "subscriptionGroupID" : "hedgeline_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
