@@ -97,16 +97,16 @@ struct ContentView: View {
                 Section("Details") {
                     TextField("Hedge name", text: $draftHedgename)
                         .accessibilityIdentifier("field_hedgeName")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                     TextField("Shape style", text: $draftShapestyle)
                         .accessibilityIdentifier("field_shapeStyle")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                     TextField("Trim note", text: $draftTrimnote)
                         .accessibilityIdentifier("field_trimNote")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                     TextField("Notes", text: $draftNotes)
                         .accessibilityIdentifier("field_notes")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                 }
             }
             .navigationTitle(editingItem == nil ? "Add Trim" : "Edit Trim")
